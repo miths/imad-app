@@ -24,28 +24,32 @@ var htmlTemplate =`
         <title>
             ${title}
         </title>
+        <meta name="viewport" content="width=device=width, initial-sca;e=1" />
+        <link href="/ui/style.css" rel="stylesheet" />
     </head>
     
     <body>
-    <div class="cont">
-        <div>
-            <a href="/">Home</a>
-        </div>
-        <hr/>
-        <h3> 
-        ${heading}
-        </h3>
-        
-        <div>
-           ${date}
-        </div>
-        <div>
-            ${content}
-            
-        </div>
+        <div class="cont">
+            <div>
+                <a href="/">Home</a>
+            </div>
+            <hr/>
+            <h3>
+            ${heading}
+            </h3>
+            <div>
+                ${date}
+            </div>
+            <div>
+                <p>
+                    ${content}
+                </p>
+                
+            </div>
         </div>
     </body>
 </html>
+
 
 `;
 
