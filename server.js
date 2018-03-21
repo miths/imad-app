@@ -27,6 +27,7 @@ var htmlTemplate =`
     </head>
     
     <body>
+    <div class="cont">
         <div>
             <a href="/">Home</a>
         </div>
@@ -41,6 +42,7 @@ var htmlTemplate =`
         <div>
             ${content}
             
+        </div>
         </div>
     </body>
 </html>
