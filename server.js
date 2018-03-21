@@ -16,7 +16,7 @@ var articles={
 
 'article-two': {  
     title: 'Article Two | Mithil Ghinaiya',
-    heading: 'Article One',
+    heading: 'Article Two',
     date: 'Sep 10, 2018',
     content: 'This is content for my second article.'},
     
